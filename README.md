@@ -7,5 +7,5 @@ Learning some PHP here...
 #### 5. FizzBuzz ✓
 #### 6. Avito parser
 #### 7. Tic-Tac-Toe
-#### 8. Get second max
+#### 8. Get second max ✓
 #### 9. Homestead. You have arrived.
