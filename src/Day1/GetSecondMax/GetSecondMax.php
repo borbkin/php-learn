@@ -12,18 +12,8 @@ namespace Day1\GetSecondMax;
 class GetSecondMax
 {
     public function getSecond(array $arr){
-        $clearArr = array_unique($arr);
-        for ($i = count($clearArr) - 1; $i >= 0 ; $i--){
-            echo $maxElement = max($clearArr);
-            if ($clearArr[$i] < $maxElement){
-                echo $clearArr[$i];
-                break;
-            }
-        }
+        $arr = array_unique($arr);
+        rsort($arr);
+        return $arr[1];
     }
 }
-
-
-$array = [3, 4, 2, 4, 5, 5];
-$test = new GetSecondMax();
-echo $test->getSecond(3, 4, 2, 4, 5, 5);

@@ -19,7 +19,7 @@ class GetSecondMaxTest extends TestCase
         $this->yardstick = new GetSecondMax();
     }
     public function test_array(){
-        $this->assertEquals(4, [3, 4, 2, 4, 5, 5]);
+        $this->assertEquals(4, $this->yardstick->getSecond([3, 4, 2, 4, 5, 5]));
     }
 
 
